@@ -1,0 +1,17 @@
+[Student]-(Sign In)
+(Sign In)<(Lock Account)
+[Student]-(See Activities)
+(See Activities)>(Sign In)
+
+[Student]-(See Grades)
+(See Grades)>(Sign In)
+[Teacher]-(Sign In)
+[Teacher]-(List Students)
+[Teacher]-(Add Student)
+[Teacher]-(Grade Student)
+(List Students)>(Sign In)
+(Add Student)>(Sign In)
+(Grade Student)>(Sign In)
+
+[Admin]->(Create Account)
+[Admin]->(Add Course)
